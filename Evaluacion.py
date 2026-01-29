@@ -1,5 +1,5 @@
 def cargar_saldo(saldo):
-    monto = float(input("Ingrese el monto a cargar: "))
+    monto = float(input("Ingrese el monto a depositar: "))
     if monto > 0:
         nuevo_saldo = saldo + monto
         print(f"Carga exitosa. Nuevo saldo: ${nuevo_saldo}")
